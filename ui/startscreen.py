@@ -20,7 +20,7 @@ def startscreen():
     text.goto(-60,200)
     text.write('Missile Command', font=('SpaceMission',30,'normal'))
     text.sety(180)
-    text.write('By Fisher and Lucian')
+    text.write('By Redflame1022')
     text.sety(120)
     text.write('Previous High Score: '+str(hscr), font=('SpaceMission',18,'normal'))
     text.goto(-325,100)
