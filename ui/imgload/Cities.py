@@ -9,7 +9,7 @@ City_L3T=t.Turtle()
 City_R1T=t.Turtle()
 City_R2T=t.Turtle()
 City_R3T=t.Turtle()
-Citygroupsdic = {'City_L1':City_L1T,'City_L2':City_L2T,'City_L3':City_L3T,'City_R1':City_R1T,'City_R2':City_R2T,'City_R3':City_R3T}
+Citygroupsdic = {'City_L1','City_L2','City_L3','City_R1','City_R2','City_R3'}
 Citygroupslis = [City_L1T,City_L2T,City_L3T,City_R1T,City_R2T,City_R3T]
 def regcity():
     for i in Citygroupsdic:
