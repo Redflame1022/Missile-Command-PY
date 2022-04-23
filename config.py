@@ -3,11 +3,11 @@
 score = 0 # Default 0
 level = 1 # Default 1
 baseline = 500 #Baseline is the minimum ammount of points required for the first levelup, after that it is baseline*1.5. Default 500
+defaultgodownrate = 0.3 # Default 0.3, lower to lessen game speed if it runs to fast.
 
 #The following settings are for debug, I would NOT RECCOMEND changing them unless you know what they do!
 version = '4.3.7'
 newmslincrrate = 2 # Default 2
-defaultgodownrate = 0.3 # Default 0.3
 tracerdef = 0 # Default 0
 aimermovedef = 5 # Default 5
 grun = True # Default True
