@@ -1,4 +1,4 @@
-#This is a script created by Fisher and Lucian to clone Missile Command. Please head over to the INFO.md file for more information.
+#This is a script created by Redflame1022 to clone Missile Command. Please head over to the INFO.md file for more information.
 
 #Imports
 import turtle as t
