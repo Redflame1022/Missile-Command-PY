@@ -6,7 +6,7 @@ This is a Missile Command (ish) clone, this file will basically say my process i
 
 Check the config.py for some basic configurable settings and debug stuff.
 
-*I am fairly new to Python so dont expect it to be the most efficient thing ever.*
+*I am fairly new to Python so dont expect it to be the most efficient or logical thing.*
 
 --------------------------------------------------------------------------------------------------------------------------
 
