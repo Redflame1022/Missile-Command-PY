@@ -8,10 +8,10 @@ from ui.cornerdisplay import levelup, updcornerdisplay
 from config import score, tracerdef, scoreperehit, debug
 from ui.leaderboard import updleaderboard
 wn = t.Screen()
-wn.addshape('images/Explosion/Boom_1.gif')
-wn.addshape('images/Explosion/Boom_2.gif')
-wn.addshape('images/Explosion/Boom_3.gif')
-wn.addshape('images/Explosion/Boom_4.gif')
+wn.addshape('./Missile-Command-PY/images/Explosion/Boom_1.gif')
+wn.addshape('./Missile-Command-PY/images/Explosion/Boom_2.gif')
+wn.addshape('./Missile-Command-PY/images/Explosion/Boom_3.gif')
+wn.addshape('./Missile-Command-PY/images/Explosion/Boom_4.gif')
 def amsl_hit():
         amsl_hit = t.Turtle()
         def aexplosion():
@@ -23,11 +23,11 @@ def amsl_hit():
                 amsl_hit.circle(25)
                 amsl_hit.up()
                 amsl_hit.sety(amsl_hit.ycor()+25)
-                amsl_hit.shape('images/Explosion/Boom_1.gif')
+                amsl_hit.shape('./Missile-Command-PY/images/Explosion/Boom_1.gif')
                 time.sleep(.2)
-                amsl_hit.shape('images/Explosion/Boom_3.gif')
+                amsl_hit.shape('./Missile-Command-PY/images/Explosion/Boom_3.gif')
                 time.sleep(.2)
-                amsl_hit.shape('images/Explosion/Boom_4.gif')
+                amsl_hit.shape('./Missile-Command-PY/images/Explosion/Boom_4.gif')
                 time.sleep(.2)
                 amsl_hit.hideturtle()
                 aimer.showturtle()

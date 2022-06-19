@@ -7,10 +7,10 @@ from config import hp
 import turtle as t
 import time
 wn = t.Screen()
-wn.addshape('images/Explosion/Boom_1.gif')
-wn.addshape('images/Explosion/Boom_2.gif')
-wn.addshape('images/Explosion/Boom_3.gif')
-wn.addshape('images/Explosion/Boom_4.gif')
+wn.addshape('./Missile-Command-PY/images/Explosion/Boom_1.gif')
+wn.addshape('./Missile-Command-PY/images/Explosion/Boom_2.gif')
+wn.addshape('./Missile-Command-PY/images/Explosion/Boom_3.gif')
+wn.addshape('./Missile-Command-PY/images/Explosion/Boom_4.gif')
 def boundries(target):
     def gexplosion(ex):
         t.tracer(1,0)
@@ -18,13 +18,13 @@ def boundries(target):
         gexpl.up()
         gexpl.goto(ex.xcor(),ex.ycor())
         gexpl.showturtle()
-        gexpl.shape('images/Explosion/Boom_1.gif')
+        gexpl.shape('./Missile-Command-PY/images/Explosion/Boom_1.gif')
         time.sleep(.2)
-        gexpl.shape('images/Explosion/Boom_2.gif')
+        gexpl.shape('./Missile-Command-PY/images/Explosion/Boom_2.gif')
         time.sleep(.2)
-        gexpl.shape('images/Explosion/Boom_3.gif')
+        gexpl.shape('./Missile-Command-PY/images/Explosion/Boom_3.gif')
         time.sleep(.2)
-        gexpl.shape('images/Explosion/Boom_4.gif')
+        gexpl.shape('./Missile-Command-PY/images/Explosion/Boom_4.gif')
         time.sleep(.2)
         gexpl.hideturtle()
         t.tracer(0,0)

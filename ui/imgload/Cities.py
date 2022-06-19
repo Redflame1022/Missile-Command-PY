@@ -13,15 +13,15 @@ Citygroupsdic = {'City_L1','City_L2','City_L3','City_R1','City_R2','City_R3'}
 Citygroupslis = [City_L1T,City_L2T,City_L3T,City_R1T,City_R2T,City_R3T]
 def regcity():
     for i in Citygroupsdic:
-        wn.addshape('images/Cities/'+str(i)+'_1.gif')
-        wn.addshape('images/Cities/'+str(i)+'_2.gif')
-        wn.addshape('images/Cities/'+str(i)+'_3.gif')
+        wn.addshape('./Missile-Command-PY/images/Cities/'+str(i)+'_1.gif')
+        wn.addshape('./Missile-Command-PY/images/Cities/'+str(i)+'_2.gif')
+        wn.addshape('./Missile-Command-PY/images/Cities/'+str(i)+'_3.gif')
         for x in Citygroupslis:
             x.up()
             x.clear()
             x.speed(0)
 def position(t, x, y, n):
-    t.shape('images/Cities/'+n+'_3.gif')
+    t.shape('./Missile-Command-PY/images/Cities/'+n+'_3.gif')
     t.goto(x,y)
 def positioncities():
     position(City_L1T,-212,-190,'City_L1')
@@ -36,9 +36,9 @@ def positioncities():
 def cityupd(healtharg):
     def cupdfun(h, nm, c):
         if(healtharg==h):
-            c.shape('images/Cities/City_'+nm+'.gif')
+            c.shape('./Missile-Command-PY/images/Cities/City_'+nm+'.gif')
             if(debug == True):
-                print(str(c)+' updated to images/Cities/City_'+nm+'.gif')
+                print(str(c)+' updated to ./Missile-Command-PY/images/Cities/City_'+nm+'.gif')
     cupdfun(11, 'L1_2',City_L1T)
     cupdfun(10, 'L1_1',City_L1T)
     cupdfun(9, 'L2_2',City_L2T)
